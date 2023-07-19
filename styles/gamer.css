@@ -32,21 +32,62 @@ header li a {
 
 .play-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 240px;
-    padding-right: 240px;
 }
 
 .play-title {
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
+    width: 901px;
+    height: 700px;
+    padding-left: 240px;
+    display: grid;
+    align-items: center;
 
+    /* display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+    background: #FF42A5;
+    padding-left: 240px;
+    padding-right: 240px;
+    width: 100%;
+    margin: 0px;
+    grid-template-columns: repeat(2, 1fr); */
+}
+
+.play-title01 {
+    /* width: 348px;
+    height: 56px; */
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.play-title02 {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.play-image {
+    padding-right: 240px;
 }
 
 .button {
     display: flex;
     gap: 30px;
+    color: white
 }
 
 .button-primary {
@@ -55,9 +96,10 @@ header li a {
     width: auto 156px;
     height: auto 65px;
     align-items: flex-start;
-    gap: 10px;
+    /* gap: 10px; */
     border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background: #FF42A5;
+    /* color: white; */
 
 }
 
@@ -102,6 +144,13 @@ header li a {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+}
+
+.we-are-gamer-title01 {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .online-game {
@@ -259,7 +308,6 @@ header li a {
     color: #FFF;
     font-size: 48px;
     font-weight: 700;
-    font-family: Work Sans;
 }
 
 .careers-description {
