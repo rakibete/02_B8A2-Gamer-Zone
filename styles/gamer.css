@@ -1,15 +1,61 @@
-
-
-
-header{
+*{
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+</style>
+}
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-li{
+
+header>ul {
+    display: flex;
+    padding-right: 100px;
+}
+
+header li {
     list-style-type: none;
+    margin-right: 20px;
+
+}
+
+header li a {
+    text-decoration: none;
+
+}
+
+.play-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 240px;
+}
+
+.play-title {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+
+}
+
+.button {
+    display: flex;
+    gap: 30px;
+}
+
+.button-primary {
+    border-radius: 5px;
     
 }
-li a{
-    text-decoration: none;
+
+.button-secondary {
+    border-radius: 48px;
+    color: #4EC5F7;
+}
+
+.we-are-gamer-contianer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
