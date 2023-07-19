@@ -1,12 +1,20 @@
-*{
-    <style>
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-</style>
+* {
+    <style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+    </style>
 }
+
+body {
+    padding-left: 240px;
+    padding-right: 240px;
+    font-family: Work Sans;
+    ;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 header>ul {
@@ -45,7 +53,7 @@ header li a {
 
 .button-primary {
     border-radius: 5px;
-    
+
 }
 
 .button-secondary {
@@ -58,4 +66,71 @@ header li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
+}
+
+.online-game {
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.four-picture-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.four-picture-container p {}
+
+.play-instantly {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 265px;
+    margin-bottom: 195px;
+}
+
+.play-games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 249px;
+}
+
+.careers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.two-column {
+    display: flex;
+
+}
+
+.two-column-first {
+    align-items: flex-start;
+}
+
+.two-column-second {
+    align-items: flex-end;
+}
+
+.careers-btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+}
+
+footer {
+    background: #0B0223;
+    justify-content: center;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
 }
