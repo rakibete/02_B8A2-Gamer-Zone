@@ -17,7 +17,7 @@ header {
 
 }
 
-header>ul {
+nav>ul {
     display: flex;
     padding-right: 100px;
 }
@@ -133,4 +133,25 @@ footer {
     color: #FFF;
     font-size: 45px;
     font-weight: 700;
+    justify-content: center;
+}
+
+footer ul{
+   
+    justify-content: center;
+    
+}
+footer li {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+
+footer li a {
+    text-decoration: none;
+
 }
