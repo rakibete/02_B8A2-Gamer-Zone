@@ -251,7 +251,8 @@ header li a {
     height: 650px;
     /* flex-shrink: 0; */
     border-radius: 16px;
-    background: lightgray 50% / cover no-repeat;
+    /* background: lightgray 50% / cover no-repeat; */
+    padding-right: 240px;
 }
 
 .play-games {
@@ -299,21 +300,21 @@ header li a {
     background-repeat: no-repeat;
     /* gap: 95px; */
 
-    padding-left: 140px;
+    padding-left: 240px;
     /* padding-right: 240px; */
     /* width: 100%; */
     /* margin: 0px; */
     grid-template-columns: repeat(2, 1fr);
 }
-.carees-left{
-        /* padding-left: 240px; */
-        display:block;
+
+.carees-left {
+    /* padding-left: 240px; */
+    display: block;
 
 
 }
-.careers-right-image {
 
-}
+.careers-right-image {}
 
 .careers-title {
     /* width: 426px; */
@@ -328,7 +329,8 @@ header li a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-padding-bottom: 20px;}
+    padding-bottom: 20px;
+}
 
 .two-column {
     display: flex;
@@ -369,13 +371,15 @@ padding-bottom: 20px;}
 
 
 footer {
-    background: #0B0223;
+    /* background: #0B0223; */
+    background: red;
     color: #FFF;
     font-size: 45px;
     font-weight: 700;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
-.footer-title{
+
+.footer-title {
     /* justify-content: center; */
     text-align: center;
 }
@@ -384,6 +388,7 @@ footer ul {
     display: flex;
     justify-content: center;
     /* margin-right: 40px; */
+    gap: 60px;
 
 }
 
@@ -393,11 +398,24 @@ footer li {
     font-size: 18px;
     font-weight: 600;
     list-style-type: none;
-    margin-right: 20px;
-
 }
 
 footer li a {
     text-decoration: none;
 
+}
+
+.last-nav {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-image {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    align-items: center;
 }
