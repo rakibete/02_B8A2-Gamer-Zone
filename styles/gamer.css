@@ -360,16 +360,19 @@ header li a {
 
 footer {
     background: #0B0223;
-    justify-content: center;
     color: #FFF;
     font-size: 45px;
     font-weight: 700;
+    justify-content: space-between;
+}
+.footer-title{
     justify-content: center;
 }
 
 footer ul {
-
+    display: flex;
     justify-content: center;
+    margin-right: 40px;
 
 }
 
