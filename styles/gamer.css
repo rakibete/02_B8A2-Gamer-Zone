@@ -293,18 +293,20 @@ header li a {
 .careers {
     display: grid;
     justify-content: space-between;
+
     /* align-items: center; */
     background: #FF42A5;
-    gap: 95px;
+    background-repeat: no-repeat;
+    /* gap: 95px; */
 
-    /* padding-left: 140px; */
+    padding-left: 140px;
     /* padding-right: 240px; */
     /* width: 100%; */
     /* margin: 0px; */
     grid-template-columns: repeat(2, 1fr);
 }
 .carees-left{
-        padding-left: 140px;
+        /* padding-left: 240px; */
         display:block;
 
 
